@@ -1554,17 +1554,17 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: TriggerEvent
-    startState: Trigger
+    name: InteractionEvents
+    startState: TriggerEvents
     states:
-    - name: Trigger
+    - name: TriggerEvents
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 57
         y: 114
-        width: 100
+        width: 106
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -1608,7 +1608,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: InteractiveMove
+          value: Interact
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1721,7 +1721,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2155,24 +2155,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &584716941 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100190, guid: 39e56fa1980434d5f80f99043fa88d27, type: 3}
-  m_PrefabInternal: {fileID: 1461718194}
---- !u!64 &584716943
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 584716941}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
 --- !u!1 &610854782
 GameObject:
   m_ObjectHideFlags: 3
@@ -2683,6 +2665,10 @@ Prefab:
       propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
+    - target: {fileID: 100184, guid: 39e56fa1980434d5f80f99043fa88d27, type: 3}
+      propertyPath: m_TagString
+      value: Interact
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 39e56fa1980434d5f80f99043fa88d27, type: 3}
   m_IsPrefabParent: 0
@@ -2704,6 +2690,22 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
+--- !u!1 &1461718197 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100184, guid: 39e56fa1980434d5f80f99043fa88d27, type: 3}
+  m_PrefabInternal: {fileID: 1461718194}
+--- !u!65 &1461718198
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1461718197}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: -30, y: 200, z: 69.999985}
+  m_Center: {x: 0.000012874603, y: -0.0000076293945, z: 35.000004}
 --- !u!1 &1619302347
 GameObject:
   m_ObjectHideFlags: 0
