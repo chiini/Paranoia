@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Shadow
   - Ground
+  - InteractiveMove
+  - InteractiveHide
+  - InteractiveInspect
   layers:
   - Default
   - TransparentFX
