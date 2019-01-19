@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: 39e56fa1980434d5f80f99043fa88d27
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bett
+    100002: camera1
+    100004: Fenster_Untergeschoss
+    100006: gitter
+    100008: gitter 1
+    100010: gitter1
+    100012: gitter10
+    100014: gitter10 1
+    100016: gitter11
+    100018: gitter11 1
+    100020: gitter12
+    100022: gitter12 1
+    100024: gitter13
+    100026: gitter13 1
+    100028: gitter14
+    100030: gitter14 1
+    100032: gitter15
+    100034: gitter15 1
+    100036: gitter16
+    100038: gitter16 1
+    100040: gitter17
+    100042: gitter17 1
+    100044: gitter18
+    100046: gitter18 1
+    100048: gitter19
+    100050: gitter19 1
+    100052: gitter2
+    100054: gitter20
+    100056: gitter20 1
+    100058: gitter21
+    100060: gitter21 1
+    100062: gitter22
+    100064: gitter22 1
+    100066: gitter23
+    100068: gitter23 1
+    100070: gitter24
+    100072: gitter24 1
+    100074: gitter25
+    100076: gitter25 1
+    100078: gitter26
+    100080: gitter26 1
+    100082: gitter27
+    100084: gitter27 1
+    100086: gitter3
+    100088: gitter4
+    100090: gitter5
+    100092: gitter6
+    100094: gitter6 1
+    100096: gitter7
+    100098: gitter7 1
+    100100: gitter8
+    100102: gitter8 1
+    100104: gitter9
+    100106: gitter9 1
+    100108: Gitter_Obergeschoss
+    100110: Gitter_Untergeschoss
+    100112: Haustuer
+    100114: Kamera
+    100116: //RootNode
+    100118: obere_Stiege
+    100120: Obergeschoss
+    100122: pCube1
+    100124: pCube10
+    100126: pCube11
+    100128: pCube12
+    100130: pCube13
+    100132: pCube14
+    100134: pCube15
+    100136: pCube16
+    100138: pCube2
+    100140: pCube22
+    100142: pCube23
+    100144: pCube23 1
+    100146: pCube24
+    100148: pCube3
+    100150: pCube4
+    100152: pCube5
+    100154: pCube6
+    100156: pCube7
+    100158: pCube8
+    100160: pCube9
+    100162: Person
+    100164: Polster
+    100166: Schrank_Gang
+    100168: Schrank_Zimmer
+    100170: Sessel
+    100172: Sessel_Zimmer
+    100174: Stiege
+    100176: Tischplatte
+    100178: tuer
+    100180: tuer 1
+    100182: tuer 2
+    100184: tuer 3
+    100186: tuer_2
+    100188: tuer_3
+    100190: tuer_zimmer
+    100192: tuerklinke
+    100194: tuerklinke 1
+    100196: tuerklinke 2
+    100198: tuerklinke 3
+    100200: tuerklinke1
+    100202: tuerklinke1 1
+    100204: tuerrahmen
+    100206: tuerrahmen 1
+    100208: tuerrahmen 2
+    100210: tuerrahmen 3
+    100212: untere_Stiege
+    100214: Untergeschoss
+    100216: wand
+    400000: Bett
+    400002: camera1
+    400004: Fenster_Untergeschoss
+    400006: gitter
+    400008: gitter 1
+    400010: gitter1
+    400012: gitter10
+    400014: gitter10 1
+    400016: gitter11
+    400018: gitter11 1
+    400020: gitter12
+    400022: gitter12 1
+    400024: gitter13
+    400026: gitter13 1
+    400028: gitter14
+    400030: gitter14 1
+    400032: gitter15
+    400034: gitter15 1
+    400036: gitter16
+    400038: gitter16 1
+    400040: gitter17
+    400042: gitter17 1
+    400044: gitter18
+    400046: gitter18 1
+    400048: gitter19
+    400050: gitter19 1
+    400052: gitter2
+    400054: gitter20
+    400056: gitter20 1
+    400058: gitter21
+    400060: gitter21 1
+    400062: gitter22
+    400064: gitter22 1
+    400066: gitter23
+    400068: gitter23 1
+    400070: gitter24
+    400072: gitter24 1
+    400074: gitter25
+    400076: gitter25 1
+    400078: gitter26
+    400080: gitter26 1
+    400082: gitter27
+    400084: gitter27 1
+    400086: gitter3
+    400088: gitter4
+    400090: gitter5
+    400092: gitter6
+    400094: gitter6 1
+    400096: gitter7
+    400098: gitter7 1
+    400100: gitter8
+    400102: gitter8 1
+    400104: gitter9
+    400106: gitter9 1
+    400108: Gitter_Obergeschoss
+    400110: Gitter_Untergeschoss
+    400112: Haustuer
+    400114: Kamera
+    400116: //RootNode
+    400118: obere_Stiege
+    400120: Obergeschoss
+    400122: pCube1
+    400124: pCube10
+    400126: pCube11
+    400128: pCube12
+    400130: pCube13
+    400132: pCube14
+    400134: pCube15
+    400136: pCube16
+    400138: pCube2
+    400140: pCube22
+    400142: pCube23
+    400144: pCube23 1
+    400146: pCube24
+    400148: pCube3
+    400150: pCube4
+    400152: pCube5
+    400154: pCube6
+    400156: pCube7
+    400158: pCube8
+    400160: pCube9
+    400162: Person
+    400164: Polster
+    400166: Schrank_Gang
+    400168: Schrank_Zimmer
+    400170: Sessel
+    400172: Sessel_Zimmer
+    400174: Stiege
+    400176: Tischplatte
+    400178: tuer
+    400180: tuer 1
+    400182: tuer 2
+    400184: tuer 3
+    400186: tuer_2
+    400188: tuer_3
+    400190: tuer_zimmer
+    400192: tuerklinke
+    400194: tuerklinke 1
+    400196: tuerklinke 2
+    400198: tuerklinke 3
+    400200: tuerklinke1
+    400202: tuerklinke1 1
+    400204: tuerrahmen
+    400206: tuerrahmen 1
+    400208: tuerrahmen 2
+    400210: tuerrahmen 3
+    400212: untere_Stiege
+    400214: Untergeschoss
+    400216: wand
+    2000000: camera1
+    2100000: lambert1
+    2300000: Bett
+    2300002: Fenster_Untergeschoss
+    2300004: gitter
+    2300006: gitter 1
+    2300008: gitter1
+    2300010: gitter10
+    2300012: gitter10 1
+    2300014: gitter11
+    2300016: gitter11 1
+    2300018: gitter12
+    2300020: gitter12 1
+    2300022: gitter13
+    2300024: gitter13 1
+    2300026: gitter14
+    2300028: gitter14 1
+    2300030: gitter15
+    2300032: gitter15 1
+    2300034: gitter16
+    2300036: gitter16 1
+    2300038: gitter17
+    2300040: gitter17 1
+    2300042: gitter18
+    2300044: gitter18 1
+    2300046: gitter19
+    2300048: gitter19 1
+    2300050: gitter2
+    2300052: gitter20
+    2300054: gitter20 1
+    2300056: gitter21
+    2300058: gitter21 1
+    2300060: gitter22
+    2300062: gitter22 1
+    2300064: gitter23
+    2300066: gitter23 1
+    2300068: gitter24
+    2300070: gitter24 1
+    2300072: gitter25
+    2300074: gitter25 1
+    2300076: gitter26
+    2300078: gitter26 1
+    2300080: gitter27
+    2300082: gitter27 1
+    2300084: gitter3
+    2300086: gitter4
+    2300088: gitter5
+    2300090: gitter6
+    2300092: gitter6 1
+    2300094: gitter7
+    2300096: gitter7 1
+    2300098: gitter8
+    2300100: gitter8 1
+    2300102: gitter9
+    2300104: gitter9 1
+    2300106: Kamera
+    2300108: Obergeschoss
+    2300110: pCube1
+    2300112: pCube10
+    2300114: pCube11
+    2300116: pCube12
+    2300118: pCube13
+    2300120: pCube14
+    2300122: pCube15
+    2300124: pCube16
+    2300126: pCube2
+    2300128: pCube22
+    2300130: pCube23
+    2300132: pCube23 1
+    2300134: pCube24
+    2300136: pCube3
+    2300138: pCube4
+    2300140: pCube5
+    2300142: pCube6
+    2300144: pCube7
+    2300146: pCube8
+    2300148: pCube9
+    2300150: Person
+    2300152: Polster
+    2300154: Schrank_Gang
+    2300156: Schrank_Zimmer
+    2300158: Sessel
+    2300160: Sessel_Zimmer
+    2300162: Tischplatte
+    2300164: tuer
+    2300166: tuer 1
+    2300168: tuer 2
+    2300170: tuer 3
+    2300172: tuerklinke
+    2300174: tuerklinke 1
+    2300176: tuerklinke 2
+    2300178: tuerklinke 3
+    2300180: tuerklinke1
+    2300182: tuerklinke1 1
+    2300184: tuerrahmen
+    2300186: tuerrahmen 1
+    2300188: tuerrahmen 2
+    2300190: tuerrahmen 3
+    2300192: Untergeschoss
+    2300194: wand
+    3300000: Bett
+    3300002: Fenster_Untergeschoss
+    3300004: gitter
+    3300006: gitter 1
+    3300008: gitter1
+    3300010: gitter10
+    3300012: gitter10 1
+    3300014: gitter11
+    3300016: gitter11 1
+    3300018: gitter12
+    3300020: gitter12 1
+    3300022: gitter13
+    3300024: gitter13 1
+    3300026: gitter14
+    3300028: gitter14 1
+    3300030: gitter15
+    3300032: gitter15 1
+    3300034: gitter16
+    3300036: gitter16 1
+    3300038: gitter17
+    3300040: gitter17 1
+    3300042: gitter18
+    3300044: gitter18 1
+    3300046: gitter19
+    3300048: gitter19 1
+    3300050: gitter2
+    3300052: gitter20
+    3300054: gitter20 1
+    3300056: gitter21
+    3300058: gitter21 1
+    3300060: gitter22
+    3300062: gitter22 1
+    3300064: gitter23
+    3300066: gitter23 1
+    3300068: gitter24
+    3300070: gitter24 1
+    3300072: gitter25
+    3300074: gitter25 1
+    3300076: gitter26
+    3300078: gitter26 1
+    3300080: gitter27
+    3300082: gitter27 1
+    3300084: gitter3
+    3300086: gitter4
+    3300088: gitter5
+    3300090: gitter6
+    3300092: gitter6 1
+    3300094: gitter7
+    3300096: gitter7 1
+    3300098: gitter8
+    3300100: gitter8 1
+    3300102: gitter9
+    3300104: gitter9 1
+    3300106: Kamera
+    3300108: Obergeschoss
+    3300110: pCube1
+    3300112: pCube10
+    3300114: pCube11
+    3300116: pCube12
+    3300118: pCube13
+    3300120: pCube14
+    3300122: pCube15
+    3300124: pCube16
+    3300126: pCube2
+    3300128: pCube22
+    3300130: pCube23
+    3300132: pCube23 1
+    3300134: pCube24
+    3300136: pCube3
+    3300138: pCube4
+    3300140: pCube5
+    3300142: pCube6
+    3300144: pCube7
+    3300146: pCube8
+    3300148: pCube9
+    3300150: Person
+    3300152: Polster
+    3300154: Schrank_Gang
+    3300156: Schrank_Zimmer
+    3300158: Sessel
+    3300160: Sessel_Zimmer
+    3300162: Tischplatte
+    3300164: tuer
+    3300166: tuer 1
+    3300168: tuer 2
+    3300170: tuer 3
+    3300172: tuerklinke
+    3300174: tuerklinke 1
+    3300176: tuerklinke 2
+    3300178: tuerklinke 3
+    3300180: tuerklinke1
+    3300182: tuerklinke1 1
+    3300184: tuerrahmen
+    3300186: tuerrahmen 1
+    3300188: tuerrahmen 2
+    3300190: tuerrahmen 3
+    3300192: Untergeschoss
+    3300194: wand
+    4300000: Obergeschoss
+    4300002: Untergeschoss
+    4300004: Person
+    4300006: tuer
+    4300008: tuerrahmen
+    4300010: tuerklinke
+    4300012: tuerklinke1
+    4300014: tuer
+    4300016: tuerrahmen
+    4300018: tuerklinke
+    4300020: tuer
+    4300022: tuerrahmen
+    4300024: tuerklinke
+    4300026: Schrank_Gang
+    4300028: Bett
+    4300030: Schrank_Zimmer
+    4300032: Tischplatte
+    4300034: wand
+    4300036: pCube1
+    4300038: pCube2
+    4300040: pCube3
+    4300042: pCube4
+    4300044: pCube9
+    4300046: pCube10
+    4300048: pCube11
+    4300050: pCube12
+    4300052: pCube13
+    4300054: pCube14
+    4300056: pCube15
+    4300058: pCube16
+    4300060: pCube5
+    4300062: pCube6
+    4300064: pCube7
+    4300066: pCube8
+    4300068: tuer
+    4300070: tuerrahmen
+    4300072: tuerklinke
+    4300074: tuerklinke1
+    4300076: Sessel
+    4300078: gitter
+    4300080: gitter1
+    4300082: gitter2
+    4300084: gitter3
+    4300086: gitter4
+    4300088: gitter5
+    4300090: gitter6
+    4300092: gitter7
+    4300094: gitter8
+    4300096: gitter9
+    4300098: gitter10
+    4300100: gitter11
+    4300102: gitter12
+    4300104: gitter13
+    4300106: gitter14
+    4300108: gitter15
+    4300110: gitter16
+    4300112: gitter17
+    4300114: gitter18
+    4300116: gitter19
+    4300118: gitter20
+    4300120: gitter21
+    4300122: gitter22
+    4300124: gitter23
+    4300126: gitter24
+    4300128: gitter25
+    4300130: gitter26
+    4300132: gitter27
+    4300134: pCube22
+    4300136: pCube23
+    4300138: Sessel_Zimmer
+    4300140: gitter
+    4300142: gitter6
+    4300144: gitter7
+    4300146: gitter8
+    4300148: gitter9
+    4300150: gitter10
+    4300152: gitter11
+    4300154: gitter12
+    4300156: gitter13
+    4300158: gitter14
+    4300160: gitter15
+    4300162: gitter16
+    4300164: gitter17
+    4300166: gitter18
+    4300168: gitter19
+    4300170: gitter20
+    4300172: gitter21
+    4300174: gitter22
+    4300176: gitter23
+    4300178: gitter24
+    4300180: gitter25
+    4300182: gitter26
+    4300184: gitter27
+    4300186: pCube23
+    4300188: pCube24
+    4300190: Fenster_Untergeschoss
+    4300192: Kamera
+    4300194: Polster
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
