@@ -8,6 +8,9 @@ TagManager:
   - Ground
   - Interact
   - Door
+  - InteractiveMove
+  - Closet
+  - Stairs
   layers:
   - Default
   - TransparentFX
