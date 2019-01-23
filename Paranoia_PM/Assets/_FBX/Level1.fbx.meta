@@ -112,6 +112,16 @@ ModelImporter:
     100212: untere_Stiege
     100214: Untergeschoss
     100216: wand
+    100218: Kamerax
+    100220: pCube25
+    100222: pCube26
+    100224: pCylinder1
+    100226: pCylinder2
+    100228: Schrank_Gang1
+    100230: tuer 4
+    100232: tuer_4
+    100234: tuerklinke 4
+    100236: tuerrahmen 4
     400000: Bett
     400002: camera1
     400004: Fenster_Untergeschoss
@@ -221,8 +231,20 @@ ModelImporter:
     400212: untere_Stiege
     400214: Untergeschoss
     400216: wand
+    400218: Kamerax
+    400220: pCube25
+    400222: pCube26
+    400224: pCylinder1
+    400226: pCylinder2
+    400228: Schrank_Gang1
+    400230: tuer 4
+    400232: tuer_4
+    400234: tuerklinke 4
+    400236: tuerrahmen 4
     2000000: camera1
     2100000: lambert1
+    2100002: Wall
+    2100004: floor
     2300000: Bett
     2300002: Fenster_Untergeschoss
     2300004: gitter
@@ -321,6 +343,14 @@ ModelImporter:
     2300190: tuerrahmen 3
     2300192: Untergeschoss
     2300194: wand
+    2300196: pCube25
+    2300198: pCube26
+    2300200: pCylinder1
+    2300202: pCylinder2
+    2300204: Schrank_Gang1
+    2300206: tuer 4
+    2300208: tuerklinke 4
+    2300210: tuerrahmen 4
     3300000: Bett
     3300002: Fenster_Untergeschoss
     3300004: gitter
@@ -419,6 +449,14 @@ ModelImporter:
     3300190: tuerrahmen 3
     3300192: Untergeschoss
     3300194: wand
+    3300196: pCube25
+    3300198: pCube26
+    3300200: pCylinder1
+    3300202: pCylinder2
+    3300204: Schrank_Gang1
+    3300206: tuer 4
+    3300208: tuerklinke 4
+    3300210: tuerrahmen 4
     4300000: Obergeschoss
     4300002: Untergeschoss
     4300004: Person
@@ -517,6 +555,15 @@ ModelImporter:
     4300190: Fenster_Untergeschoss
     4300192: Kamera
     4300194: Polster
+    4300196: Schrank_Gang1
+    4300198: pCylinder2
+    4300200: pCylinder1
+    4300202: pCube25
+    4300204: pCube26
+    4300206: tuer
+    4300208: tuerrahmen
+    4300210: tuerklinke
+    7400000: Take 001
     9500000: //RootNode
   externalObjects: {}
   materials:
