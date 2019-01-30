@@ -122,6 +122,43 @@ ModelImporter:
     100232: tuer_4
     100234: tuerklinke 4
     100236: tuerrahmen 4
+    100238: Bilderrahmen
+    100240: Bilderrahmen1
+    100242: Bilderrahmen2
+    100244: Bilderrahmen3
+    100246: Bilderrahmen4
+    100248: Bilderrahmen5
+    100250: Collage
+    100252: Dach
+    100254: Garderobe
+    100256: Kleiner_Sessel
+    100258: Kleiner_Sessel1
+    100260: Kleiner_Tisch
+    100262: Komode_gang
+    100264: Lampenschirm
+    100266: Linke_Schrnak_Tuer
+    100268: Mueleimer
+    100270: pCube27
+    100272: pCube28
+    100274: pCube31
+    100276: pCube32
+    100278: pCube33
+    100280: pCube34
+    100282: pCube35
+    100284: pCube36
+    100286: pCube37
+    100288: pCylinder4
+    100290: polySurface1
+    100292: polySurface2
+    100294: polySurface3
+    100296: Rechte_Schrank_Tuer
+    100298: Regal_Garderobe
+    100300: Stehlampe
+    100302: Stehlampe 1
+    100304: transform1
+    100306: Triptychon
+    100308: Zimmer_Lampe
+    100310: Zimmer_Schrank
     400000: Bett
     400002: camera1
     400004: Fenster_Untergeschoss
@@ -241,10 +278,51 @@ ModelImporter:
     400232: tuer_4
     400234: tuerklinke 4
     400236: tuerrahmen 4
+    400238: Bilderrahmen
+    400240: Bilderrahmen1
+    400242: Bilderrahmen2
+    400244: Bilderrahmen3
+    400246: Bilderrahmen4
+    400248: Bilderrahmen5
+    400250: Collage
+    400252: Dach
+    400254: Garderobe
+    400256: Kleiner_Sessel
+    400258: Kleiner_Sessel1
+    400260: Kleiner_Tisch
+    400262: Komode_gang
+    400264: Lampenschirm
+    400266: Linke_Schrnak_Tuer
+    400268: Mueleimer
+    400270: pCube27
+    400272: pCube28
+    400274: pCube31
+    400276: pCube32
+    400278: pCube33
+    400280: pCube34
+    400282: pCube35
+    400284: pCube36
+    400286: pCube37
+    400288: pCylinder4
+    400290: polySurface1
+    400292: polySurface2
+    400294: polySurface3
+    400296: Rechte_Schrank_Tuer
+    400298: Regal_Garderobe
+    400300: Stehlampe
+    400302: Stehlampe 1
+    400304: transform1
+    400306: Triptychon
+    400308: Zimmer_Lampe
+    400310: Zimmer_Schrank
     2000000: camera1
     2100000: lambert1
     2100002: Wall
     2100004: floor
+    2100006: Decke
+    2100008: Zimmer_Wall
+    2100010: wood
+    2100012: Dark_Wood
     2300000: Bett
     2300002: Fenster_Untergeschoss
     2300004: gitter
@@ -351,6 +429,35 @@ ModelImporter:
     2300206: tuer 4
     2300208: tuerklinke 4
     2300210: tuerrahmen 4
+    2300212: Bilderrahmen
+    2300214: Bilderrahmen1
+    2300216: Bilderrahmen2
+    2300218: Bilderrahmen3
+    2300220: Bilderrahmen4
+    2300222: Bilderrahmen5
+    2300224: Dach
+    2300226: Garderobe
+    2300228: Kleiner_Sessel
+    2300230: Kleiner_Sessel1
+    2300232: Kleiner_Tisch
+    2300234: Lampenschirm
+    2300236: Mueleimer
+    2300238: pCube27
+    2300240: pCube28
+    2300242: pCube31
+    2300244: pCube32
+    2300246: pCube33
+    2300248: pCube34
+    2300250: pCube35
+    2300252: pCube36
+    2300254: pCube37
+    2300256: pCylinder4
+    2300258: polySurface1
+    2300260: polySurface2
+    2300262: polySurface3
+    2300264: Regal_Garderobe
+    2300266: Stehlampe 1
+    2300268: Zimmer_Lampe
     3300000: Bett
     3300002: Fenster_Untergeschoss
     3300004: gitter
@@ -457,6 +564,35 @@ ModelImporter:
     3300206: tuer 4
     3300208: tuerklinke 4
     3300210: tuerrahmen 4
+    3300212: Bilderrahmen
+    3300214: Bilderrahmen1
+    3300216: Bilderrahmen2
+    3300218: Bilderrahmen3
+    3300220: Bilderrahmen4
+    3300222: Bilderrahmen5
+    3300224: Dach
+    3300226: Garderobe
+    3300228: Kleiner_Sessel
+    3300230: Kleiner_Sessel1
+    3300232: Kleiner_Tisch
+    3300234: Lampenschirm
+    3300236: Mueleimer
+    3300238: pCube27
+    3300240: pCube28
+    3300242: pCube31
+    3300244: pCube32
+    3300246: pCube33
+    3300248: pCube34
+    3300250: pCube35
+    3300252: pCube36
+    3300254: pCube37
+    3300256: pCylinder4
+    3300258: polySurface1
+    3300260: polySurface2
+    3300262: polySurface3
+    3300264: Regal_Garderobe
+    3300266: Stehlampe 1
+    3300268: Zimmer_Lampe
     4300000: Obergeschoss
     4300002: Untergeschoss
     4300004: Person
@@ -563,6 +699,35 @@ ModelImporter:
     4300206: tuer
     4300208: tuerrahmen
     4300210: tuerklinke
+    4300212: Dach
+    4300214: polySurface1
+    4300216: pCube27
+    4300218: polySurface2
+    4300220: polySurface3
+    4300222: pCube28
+    4300224: Kleiner_Tisch
+    4300226: Garderobe
+    4300228: Regal_Garderobe
+    4300230: pCube34
+    4300232: pCube33
+    4300234: pCube32
+    4300236: pCube31
+    4300238: pCube35
+    4300240: pCube36
+    4300242: pCube37
+    4300244: Bilderrahmen5
+    4300246: Bilderrahmen4
+    4300248: Bilderrahmen3
+    4300250: Bilderrahmen2
+    4300252: Bilderrahmen1
+    4300254: Bilderrahmen
+    4300256: Kleiner_Sessel
+    4300258: Mueleimer
+    4300260: Kleiner_Sessel1
+    4300262: pCylinder4
+    4300264: Lampenschirm
+    4300266: Stehlampe
+    4300268: Zimmer_Lampe
     7400000: Take 001
     9500000: //RootNode
   externalObjects: {}
@@ -608,8 +773,6 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
