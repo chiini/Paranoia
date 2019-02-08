@@ -1,34 +1,21 @@
 fileFormatVersion: 2
-guid: c911eb519732fb049b58c41b9c24b5eb
-timeCreated: 1548779759
-licenseType: Free
+guid: 9ecc275d98b7c1d4fa4d09e222ca5e5b
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: pCube1
-    100004: pCube2
     400000: //RootNode
-    400002: pCube1
-    400004: pCube2
-    2300000: pCube1
-    2300002: pCube2
-    3300000: pCube1
-    3300002: pCube2
-    4300000: pCube1
-    4300002: pCube2
+    2100000: red_bricks
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Fabrik_Ecke
     9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: c6788fe1f35af894da0235ea3cbcd0e2, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -53,7 +40,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 100
+    globalScale: 0.01
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -66,6 +53,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
