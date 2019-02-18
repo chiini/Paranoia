@@ -280,6 +280,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Cinemachine.CinemachineBrain+VcamEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1 &288667533 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100230, guid: 39e56fa1980434d5f80f99043fa88d27, type: 3}
+  m_PrefabInternal: {fileID: 1461718194}
+--- !u!65 &288667537
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 288667533}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 200, z: 69.999985}
+  m_Center: {x: 0.000012874603, y: -0.0000076293945, z: 35.000004}
 --- !u!1001 &349377364
 Prefab:
   m_ObjectHideFlags: 0
@@ -1581,7 +1597,7 @@ MonoBehaviour:
         x: 57
         y: 162
         width: 106
-        height: 48
+        height: 64
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -1602,6 +1618,14 @@ MonoBehaviour:
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
+      - fsmEvent:
+          name: hide
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Get Button 2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.TriggerEvent
@@ -1611,7 +1635,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010001
+        actionEnabled: 010101
         actionIsOpen: 010101
         actionStartIndex: 000000000400000008000000
         actionHashCodes: 9ddbab039ddbab039ddbab03
@@ -1675,7 +1699,7 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - stairs
-        - 
+        - hide
         - openDoor
         byteData: 000000000000000000000000
         arrayParamSizes: 
@@ -1800,7 +1824,7 @@ MonoBehaviour:
         x: 257
         y: 163.92969
         width: 100
-        height: 48
+        height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -1813,25 +1837,15 @@ MonoBehaviour:
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: TriggerEvents
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetKeyDown
-        - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: ff77a90488611604
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff77a904
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -1862,27 +1876,25 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - keyPressed
-        - FINISHED
         byteData: 65000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 07000000170000001100000017000000
+        paramDataType: 070000001700000011000000
         paramName:
         - key
         - sendEvent
         - storeResult
-        - sendEvent
-        paramDataPos: 00000000000000000000000001000000
-        paramByteDataSize: 04000000000000000000000000000000
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 040000000000000000000000
     - name: Hide
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 589
-        y: 134
+        x: 431
+        y: 234.14062
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1955,15 +1967,25 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.DebugLog
+        - HutongGames.PlayMaker.Actions.DestroyComponent
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 9c59e501
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 9c59e5019bd6f801
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 288667533}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -1977,6 +1999,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: Door open
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: UnityEngine.BoxCollider
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1995,13 +2023,87 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 070000001200000001000000
+        paramDataType: 0700000012000000010000001400000012000000
         paramName:
         - logLevel
         - text
         - sendToUnityLog
-        paramDataPos: 000000000000000004000000
-        paramByteDataSize: 040000000000000001000000
+        - gameObject
+        - component
+        paramDataPos: 0000000000000000040000000000000001000000
+        paramByteDataSize: 0400000000000000010000000000000000000000
+    - name: Get Button 2
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 256.66406
+        y: 224.67188
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: keyPressed
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Hide
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetKeyDown
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff77a904
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - keyPressed
+        byteData: 65000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 070000001700000011000000
+        paramName:
+        - key
+        - sendEvent
+        - storeResult
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 040000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -2496,18 +2598,6 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 13.52, y: 216.40146, z: 102.93448}
-  m_Center: {x: 0.000011444092, y: 8.200722, z: 0.000020503998}
---- !u!65 &483921807
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 483921804}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5.000007, y: 216.40146, z: 102.93448}
   m_Center: {x: 0.000011444092, y: 8.200722, z: 0.000020503998}
 --- !u!1 &601950356 stripped
 GameObject:
