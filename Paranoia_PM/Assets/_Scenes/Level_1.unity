@@ -1122,6 +1122,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 280450239}
   m_Mesh: {fileID: 4300124, guid: 39e56fa1980434d5f80f99043fa88d27, type: 3}
+--- !u!4 &280876462 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+  m_PrefabInternal: {fileID: 815310062}
 --- !u!1 &288667533
 GameObject:
   m_ObjectHideFlags: 0
@@ -6138,13 +6142,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 14.25
+          value: 10
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -3
+          value: -2.9
         - useVariable: 1
           name: 
           tooltip: 
@@ -7393,6 +7397,72 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 789144908}
   m_Mesh: {fileID: 4300054, guid: 39e56fa1980434d5f80f99043fa88d27, type: 3}
+--- !u!1001 &815310062
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1264770268}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.40750417
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -32
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 157
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7801441
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6255999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 77.452
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 62.70117
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 146.91016
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 79.23256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6c4c8f3fb7dc6440995e41dacfe2a4b4, type: 2}
+    - target: {fileID: 400000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 179.99998
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &833760243
 GameObject:
   m_ObjectHideFlags: 0
@@ -9578,6 +9648,7 @@ Transform:
   m_LocalScale: {x: 0.7687824, y: 0.7687824, z: 0.7687824}
   m_Children:
   - {fileID: 1268130784}
+  - {fileID: 280876462}
   m_Father: {fileID: 1310261718}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13177,7 +13248,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Key Event
+    name: TriggerEvent
     startState: GetKey
     states:
     - name: GetKey
@@ -14247,6 +14318,260 @@ Transform:
   m_Father: {fileID: 79214726}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1923009180 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
+  m_PrefabInternal: {fileID: 815310062}
+--- !u!114 &1923009181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1923009180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 0}
+    name: CollisionEvent
+    startState: Collision
+    states:
+    - name: Collision
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 50
+        y: 104
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: GameOver
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.TriggerEvent
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 9ddbab03
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Player
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        byteData: 00000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 07000000120000001700000013000000
+        paramName:
+        - trigger
+        - collideTag
+        - sendEvent
+        - storeCollider
+        paramDataPos: 00000000000000000000000000000000
+        paramByteDataSize: 04000000000000000000000000000000
+    - name: GameOver
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 245
+        y: 105
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.DebugLog
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 9c59e501
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: GameOver!
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000001
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 070000001200000001000000
+        paramName:
+        - logLevel
+        - text
+        - sendToUnityLog
+        paramDataPos: 000000000000000004000000
+        paramByteDataSize: 040000000000000001000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 
+    description: 
+    docUrl: 
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 3
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleApplicationEvents: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0
+--- !u!114 &1923009184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1923009180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21427946a8af84fcc9a4f7bc6b63c804, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 349377365}
+--- !u!64 &1923009185
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1923009180}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 1103e080808b24cc2a4a5597bdac5674, type: 3}
 --- !u!1 &1923748528
 GameObject:
   m_ObjectHideFlags: 0
