@@ -7,6 +7,8 @@ public class PauseMenu : MonoBehaviour {
     public static bool GameIsPaused = false;
 
     public GameObject pauseMenuUI;
+
+    public GameObject infoScreenUI;
 	
 	void Update () {
 
@@ -39,6 +41,13 @@ public class PauseMenu : MonoBehaviour {
     {
         Debug.Log("Loading Menu.");
     }
+
+    public void LoadInfoScreen()
+    {
+        Debug.Log("Loading InfoScreen.");
+        infoScreenUI.SetActive(true);
+    }
+
 
     public void QuitGame ()
     {
